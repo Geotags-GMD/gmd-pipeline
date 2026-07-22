@@ -70,3 +70,13 @@ Changelogs of all GEMMA Plugin stable releases, which are also available [on Git
 - Initial release featuring the **MBI Checker** (Gaps and Overlaps Checker) ([@pacoleslaw](https://github.com/pacoleslaw))
 
 <Contributors :contributors="['pacoleslaw']" />
+
+
+## [3.0.1] - 2026
+
+### Highlights
+- Initialized VitePress documentation site with GitHub Pages deployment for user guides
+- Updated README with project overview, tool documentation, and installation instructions
+- Created user guide index page featuring plugin tools and workflows
+- Added automated changelogs for improved version tracking
+
