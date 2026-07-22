@@ -2,13 +2,59 @@
   "latest": "3.0.0",
   "releases": [
     {
+      "version": "3.1.0-RC1",
+      "date": "2026-07-22",
+      "tag": "v3.1.0-RC1",
+      "prerelease": true,
+      "contributors": [
+        "Yoichi Isagi",
+        "github-actions[bot]",
+        "kentemman-gmd",
+        "nbacquiano-ui",
+        "velascojasper0"
+      ],
+      "downloadUrl": "https://github.com/GMD-Repository/gemma-plugin/releases/download/v3.1.0-RC1/gemma-plugin-v3.1.0-RC1.zip",
+      "releaseUrl": "https://github.com/GMD-Repository/gemma-plugin/releases/tag/v3.1.0-RC1",
+      "qgisVersions": [
+        "3.34",
+        "3.40",
+        "3.44"
+      ],
+      "changes": {
+        "features": [
+          "Added automated release workflows and plugin metadata support for beta channels",
+          "Renamed plugin tag from 'GEMMA' to 'gemma-plugin' for consistency",
+          "Implemented automated CI/CD pipeline for beta plugin releases and repository metadata updates",
+          "Created VitePress documentation site with automated deployment and release management workflows",
+          "Added changelog file for GEMMA plugin version history and updates",
+          "Integrated QGIS repository card with clipboard copy functionality and documentation guide",
+          "Updated release workflow badge and refactored README layout for better clarity"
+        ],
+        "improvements": [
+          "Improved QGIS repository UI with enhanced hero section layout and dynamic download links"
+        ],
+        "changes": [],
+        "fixes": [],
+        "breaking": [],
+        "deprecated": [],
+        "dependencies": []
+      }
+    },
+    {
       "version": "3.0.0",
       "date": "2026-01-15",
       "tag": "v3.0.0",
-      "contributors": ["pacoleslaw", "nbacquiano-ui"],
+      "contributors": [
+        "pacoleslaw",
+        "nbacquiano-ui"
+      ],
       "downloadUrl": "https://github.com/GMD-Repository/gemma-plugin/releases/download/v3.0.0/gemma-plugin-v3.0.0.zip",
       "releaseUrl": "https://github.com/GMD-Repository/gemma-plugin/releases/tag/v3.0.0",
-      "qgisVersions": ["3.34", "3.40", "3.44"],
+      "qgisVersions": [
+        "3.34",
+        "3.40",
+        "3.44"
+      ],
       "changes": {
         "features": [
           "VitePress Documentation Site — Published interactive documentation hosted via GitHub Pages with full user guide, tool documentation, and getting started instructions",
@@ -32,10 +78,16 @@
       "version": "2.0.0",
       "date": "2025-06-01",
       "tag": "v2.0.0",
-      "contributors": ["pacoleslaw", "nbacquiano-ui"],
+      "contributors": [
+        "pacoleslaw",
+        "nbacquiano-ui"
+      ],
       "downloadUrl": "https://github.com/GMD-Repository/gemma-plugin/releases/download/v2.0.0/gemma-plugin-v2.0.0.zip",
       "releaseUrl": "https://github.com/GMD-Repository/gemma-plugin/releases/tag/v2.0.0",
-      "qgisVersions": ["3.34", "3.40"],
+      "qgisVersions": [
+        "3.34",
+        "3.40"
+      ],
       "changes": {
         "features": [
           "Create Enumeration Areas — Added EA delineation capabilities for census and survey field operations",
@@ -60,10 +112,14 @@
       "version": "1.2.0",
       "date": "2025-03-01",
       "tag": "v1.2.0",
-      "contributors": ["pacoleslaw"],
+      "contributors": [
+        "pacoleslaw"
+      ],
       "downloadUrl": "https://github.com/GMD-Repository/gemma-plugin/releases/download/v1.2.0/gemma-plugin-v1.2.0.zip",
       "releaseUrl": "https://github.com/GMD-Repository/gemma-plugin/releases/tag/v1.2.0",
-      "qgisVersions": ["3.34"],
+      "qgisVersions": [
+        "3.34"
+      ],
       "changes": {
         "features": [
           "Fill Polygon Gaps — Automatically fill gaps between polygon boundaries",
@@ -82,10 +138,14 @@
       "version": "1.1.0",
       "date": "2025-01-15",
       "tag": "v1.1.0",
-      "contributors": ["pacoleslaw"],
+      "contributors": [
+        "pacoleslaw"
+      ],
       "downloadUrl": "https://github.com/GMD-Repository/gemma-plugin/releases/download/v1.1.0/gemma-plugin-v1.1.0.zip",
       "releaseUrl": "https://github.com/GMD-Repository/gemma-plugin/releases/tag/v1.1.0",
-      "qgisVersions": ["3.34"],
+      "qgisVersions": [
+        "3.34"
+      ],
       "changes": {
         "features": [
           "Integrated Package for QField tool from qfieldmod plugin"
@@ -102,10 +162,14 @@
       "version": "1.0.0",
       "date": "2024-11-01",
       "tag": "v1.0.0",
-      "contributors": ["pacoleslaw"],
+      "contributors": [
+        "pacoleslaw"
+      ],
       "downloadUrl": "https://github.com/GMD-Repository/gemma-plugin/releases/download/v1.0.0/gemma-plugin-v1.0.0.zip",
       "releaseUrl": "https://github.com/GMD-Repository/gemma-plugin/releases/tag/v1.0.0",
-      "qgisVersions": ["3.34"],
+      "qgisVersions": [
+        "3.34"
+      ],
       "changes": {
         "features": [
           "Initial release featuring the MBI Checker (Gaps and Overlaps Checker)"

@@ -5,6 +5,18 @@ All notable changes to the **GEMMA** (GIS Extension for Map Management and Analy
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [3.1.0-RC1] - 2026
+
+### Highlights
+- Improved QGIS repository UI with enhanced hero section layout and dynamic download links
+- Added automated release workflows and plugin metadata support for beta channels
+- Renamed plugin tag from 'GEMMA' to 'gemma-plugin' for consistency
+- Implemented automated CI/CD pipeline for beta plugin releases and repository metadata updates
+- Created VitePress documentation site with automated deployment and release management workflows
+- Added changelog file for GEMMA plugin version history and updates
+- Integrated QGIS repository card with clipboard copy functionality and documentation guide
+- Updated release workflow badge and refactored README layout for better clarity
+
 ## [3.0.0] - 2026
 
 ### Added
